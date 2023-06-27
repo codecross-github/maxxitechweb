@@ -54293,8 +54293,8 @@ $1(a){var s=A.aIu(A.ba_(a))
 $.aGe().B(0,s)},
 $S:554}
 A.aea.prototype={
-$0(){var s=this.a.gQW()
-return A.le(firebase_messaging.getToken(s.a,null),t.N)},
+$0(){var s=this.a.gQW(),r={vapidKey:this.b}
+return A.le(firebase_messaging.getToken(s.a,r),t.N)},
 $S:144}
 A.aeb.prototype={
 $0(){var s=0,r=A.F(t.Z_),q,p,o
@@ -92903,7 +92903,7 @@ k.toString
 m=A.I6(t.P.a(k))
 h=m
 s=10
-return A.J(o.ay.gGf().o5(null),$async$og)
+return A.J(o.ay.gGf().o5("BMMUXLttAXeTDpAM5fnTscoEd3qAGsBNydKcbf2l18P_bK7c2_09Bbqc_X5fcuBiKUP_1m8mBR0XPHq_7pfa0RU"),$async$og)
 case 10:h.e=c
 s=11
 return A.J(o.DR(m),$async$og)
